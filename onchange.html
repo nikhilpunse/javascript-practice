@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        .container{
+            width: 50vw;
+            height: 50vh;
+            margin: auto;
+            margin-top: 150px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <label for="">Enter Your Name</label>
+        <input type="text" id="your-name"> <br>
+        <select name="" id="selectElem" onchange="myFunction()">
+            <option value="">Selectio any option..</option>
+            <option value="punse">Punse</option>
+            <option value="shukla">Shukla</option>
+            <option value="khurana">khurana</option>
+            <option value="ray">Ray</option>
+        </select>
+
+        <h2 id="show"></h2>
+    </div>
+    
+    <script>
+        const myFunction=()=>{
+            const elem1= document.getElementById('your-name').value;
+            const elem2= document.getElementById('selectElem').value;
+            document.getElementById('show').innerHTML=`your name is ${elem1}    and last name is ${elem2}`;
+        }
+        
+    </script>
+
+</body>
+</html>

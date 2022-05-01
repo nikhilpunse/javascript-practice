@@ -1,0 +1,22 @@
+*{
+    background-color: rgb(31, 31, 31);
+}
+.wrapper{
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+    margin-top: 150px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p, .counter{
+    text-align: center;
+    color:white;
+    font-size: 22px;
+}
+.counter{
+    color:rgb(247, 202, 41);
+    font-size: xx-large;
+}

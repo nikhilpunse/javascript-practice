@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="temperature.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form1" onsubmit="cunversion(); return false">
+            <h1>welcome to the Temperature conversion app</h1> <br>
+            <div>
+                <input type="number" id="temp" placeholder="number only">
+                <select name="" id="tempSelected">
+                    <option value="cel">Celcius</option>
+                    <option value="fah">Fahrenhiet</option>
+                </select> <br>
+            </div>
+            
+            <button>Convert</button>
+        </form>
+        <h3 id="show"></h3>
+     </div>
+     <script src="temperature.js"></script>
+</body>
+</html>

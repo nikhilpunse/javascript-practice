@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        .container{
+            width: 50vw;
+            height: 50vh;
+            margin: auto;
+            margin-top: 150px;
+            text-align: center;
+        }
+        h2{
+            color:rgb(106, 85, 228)
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Want to know My name</h1>
+        <h2 id="show"></h2>
+        <button onclick="myFunction()">click</button>
+    </div>
+   
+
+    <script>
+        function myFunction(){
+            const elem= document.getElementById('show');
+            elem.innerHTML='loading...';
+            setTimeout(()=>{
+                document.getElementById('show').innerHTML='Nikhil Punse';
+            },1000);
+        }
+    </script>
+</body>
+</html>

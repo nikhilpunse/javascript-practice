@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(237, 245, 251);
+}
+.heading{
+    width: 100vw;
+    height:10vh;
+    background-color: rgb(255, 170, 0);
+    display: flex;
+    align-items: center;
+}
+.btn-section{
+    display: flex;
+    justify-content: end;
+}
+
+#btn{
+    text-align: center;
+    width:100px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(255, 174, 0);
+    border-radius: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#btn:hover{
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* note section */
+.note{
+    width: 28vw;
+    height:35vh;
+    margin: 20px;
+    background-color: white;
+    
+}
+.operation{
+    display: flex;
+    justify-content: end;
+    /* overflow: hidden; */
+}
+.edit{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right:10px ;
+}
+.delete{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right:10px;
+}
+
+.delete:hover ,
+.edit:hover{
+    width: 24px;
+    height: 24px;
+}
+
+textarea{
+    width: 28vw;
+    height: 30vh;
+    padding: 5%;
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+   
+}
+
+.main{
+    width: 90%;
+    height: 20px;
+    font-size: 22px;
+}
+
+.hidden{
+    display: none;
+}
